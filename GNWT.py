@@ -1,3 +1,5 @@
+from brian2 import *
+start_scope()
 # Simülasyon süresi
 duration = 500*ms
 defaultclock.dt = 1*ms
